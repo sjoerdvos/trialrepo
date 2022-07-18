@@ -7,7 +7,7 @@ import os
 import pandas as pd
 import pytest
 # Import from local
-from trialrepo.proc import convert_json_to_dcm_format, jsons_to_excel
+from trialrepo.proc import convert_json_to_dcm_format, jsons_to_excel, str_len
 
 
 # Define directories
@@ -15,6 +15,25 @@ this_dir = os.path.dirname(os.path.realpath(__file__))
 test_data_dir = os.path.join(this_dir, "test_data")
 test_db_dir = os.path.join(test_data_dir, "db")
 xlsx_db_file = os.path.join(test_db_dir, "data.xlsx")
+
+
+@pytest.mark.parametrize(
+    "inp, outcome",
+    [("test", 4),
+    ("testing", 7)],
+)
+def test_str_len(inp, outcome):
+    """
+    Function to test str_len function against saved output
+
+    :Parameters:
+      - `inp`:      string
+      - `outcome`:  expected length of string
+    """
+
+    # Assert correct
+    assert str_len(inp) == outcome
+# End of function test_str_len()
 
 
 @pytest.mark.parametrize(

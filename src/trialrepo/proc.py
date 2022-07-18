@@ -9,6 +9,11 @@ import pandas as pd
 import sys
 
 
+def str_len(input_string):
+    print("Input string is length %d" % len(input_string))
+    return len(input_string)
+    
+
 def convert_json_to_dcm_format(input):
     """
     Function to convert json dict info to dicom formatting
