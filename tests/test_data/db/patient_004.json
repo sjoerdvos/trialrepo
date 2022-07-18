@@ -1,0 +1,19 @@
+{
+    "LeadClinicianName": "Jane Doe",
+    "Medicare": 1,
+    "Modality": "PET",
+    "PatientAddress": "3/15 NIF lane;Nedlands, WA 6009",
+    "PatientDiabetic": 1,
+    "PatientDOB": "11-11-2001",
+    "PatientClaustrophobic": 0,
+    "PatientContrastAllergy": 1,
+    "PatientMobilePhone": "0412345678",
+    "PatientMRN": "NaN",
+    "PatientName": "John Doe",
+    "PatientRenalOk": 0,
+    "PatientSex": "M",
+    "Project": "TLE",
+    "ScanDate": "03-02-2023",
+    "ScanTime": "13:00",
+    "Version": "1.0"
+}

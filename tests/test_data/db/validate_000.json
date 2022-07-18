@@ -1,0 +1,19 @@
+{
+    "LeadClinicianName": "Doe^Jane",
+    "Medicare": 1,
+    "Modality": "MRI",
+    "PatientAddress": "3/15 NIF lane;Nedlands, WA 6009",
+    "PatientDiabetic": 1,
+    "PatientDOB": "20000101",
+    "PatientClaustrophobic": 0,
+    "PatientContrastAllergy": 1,
+    "PatientMobilePhone": "0412345678",
+    "PatientMRN": "NaN",
+    "PatientName": "Bloggs^Joe",
+    "PatientRenalOk": 0,
+    "PatientSex": "M",
+    "Project": "Brain cancer",
+    "ScanDate": "20230201",
+    "ScanTime": "153000",
+    "Version": "1.0"
+}

@@ -1,0 +1,19 @@
+{
+    "LeadClinicianName": "Jane Doe",
+    "Medicare": 1,
+    "Modality": "MRI",
+    "PatientAddress": "3/15 NIF lane;Nedlands, WA 6009",
+    "PatientDiabetic": 1,
+    "PatientDOB": "01-01-1950",
+    "PatientClaustrophobic": 0,
+    "PatientContrastAllergy": 1,
+    "PatientMobilePhone": "0412345678",
+    "PatientMRN": "NaN",
+    "PatientName": "Jane Doe",
+    "PatientRenalOk": 0,
+    "PatientSex": "F",
+    "Project": "Breast cancer",
+    "ScanDate": "01-02-2023",
+    "ScanTime": "10:30",
+    "Version": "1.0"
+}
